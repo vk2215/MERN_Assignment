@@ -12,7 +12,7 @@ app.use(cors());
 mongoose
   .connect(mongoUrl)
   .then(() => {
-    console.log(`Connected to ${mongoUrl}`);
+    console.log(`Connected to Database`);
   })
   .catch((err) => {
     console.log(err);
